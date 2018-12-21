@@ -4,7 +4,7 @@
 
 const valor = {}; // declarando valor
 console.log(valor.nome); //  -> Undefined (valor existe, mas nome não)
-//console.log(valores); // -> not defined, estoura um ReferenceError, nunca foi declarado.
+//console.log(valores); // -> not defined, estoura um ReferenceError, valores nunca foi declarado.
 valor.nome = 'Thiago'; //
 console.log(valor.nome);
 
